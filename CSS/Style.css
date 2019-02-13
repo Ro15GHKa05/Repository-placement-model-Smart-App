@@ -1,0 +1,183 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.Main {
+	width: 100%;
+	height: 6.8125vw;
+}
+
+.W-1 {
+	margin-left: 15.625vw; 
+	/* 21.875vw */
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.W-2 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.W-3 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.W-4 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.W-5 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.Phone-Number {
+	margin-left: 18.875vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.Email {
+	margin-left: 2.8125vw;
+	margin-top: 3.125vw;
+	float: left;
+}
+
+.B-2 {
+	width: 100%;
+	height: 45.625vw;
+	background-image: url('../Images/Background-2-2.png');
+	float: left;
+}
+
+.W-6 {
+	margin-left: 15.5625vw;
+	margin-top: 9.375vw;
+	float: left;
+}
+
+.W-7 {
+	margin-left: 15.625vw;
+	margin-top: 0.375vw;
+	float: left;
+	clear: both;
+}
+
+.Text-1 {
+	width: 31.25vw;
+	margin-left: 15.625vw;
+	margin-top: 2vw;
+	float: left;
+	clear: both;
+}
+
+.But-1 {
+	width: 15vw;
+	height: 3.75vw;
+	border: 0.125vw solid white;
+	border-radius: 3.125vw;
+	margin-left: -31.4375vw;
+	/* 15.5625vw */
+	margin-top: 9.8125vw;
+	/* 25.8125vw */
+	float: left;
+	background-color: #fff0;
+}
+
+.Smartphone-in-hand {
+	width: 61.5625vw;
+	height: 39.5vw;
+	margin-left: 34.6875vw;
+	margin-top: -22.525vw;
+	float: left;
+}
+
+.B-3 {
+	width: 100%;
+	height: 61.4375vw;
+	background-color: #ffffff;
+	float: left;
+}
+
+.W-8 {
+	margin-left: 40.875vw;
+	margin-top: 6.5vw;
+	float: left;
+}
+
+.Text-2 {
+	width: 53.75vw;
+	margin-top: 2.8125vw;
+	margin-left: 16.75vw;
+	float: left;
+	white-space: pre;
+}
+
+.Heart {
+	margin-left: -58.75vw;
+	margin-top: 12.8125vw;
+
+	float: left;
+}
+
+.W-9 {
+	margin-left: -52.25vw;
+	margin-top: 14.0625vw;
+	float: left;
+}
+
+.Suitcase-small {
+	float: left;
+	margin-left: -58.75vw;
+	margin-top: 21.8125vw;
+}
+
+.W-10 {
+	margin-left: -52.25vw;
+	margin-top: 23.0625vw;
+	float: left;
+}
+
+.Sheet {
+	float: left;
+	margin-left: -58.75vw;
+	margin-top: 30.8125vw;
+}
+
+.W-11 {
+	margin-left: -52.25vw;
+	margin-top: 32.0625vw;
+	float: left;
+}
+
+.Strange-image {
+	float: left;
+	margin-left: -58.75vw;
+	margin-top: 39.8125vw;
+}
+
+.W-12 {
+	margin-left: -52.25vw;
+	margin-top: 41.0625vw;
+	float: left;
+}
+
+.Umbrella {
+	float: left;
+	margin-left: -58.75vw;
+	margin-top: 48.8125vw;
+}
+
+.W-13 {
+	margin-left: -52.25vw;
+	margin-top: 50.0625vw;
+	float: left;
+}
