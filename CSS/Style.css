@@ -13,42 +13,49 @@ body {
 	/* 21.875vw */
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .W-2 {
 	margin-left: 2.1875vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .W-3 {
 	margin-left: 2.1875vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .W-4 {
 	margin-left: 2.1875vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .W-5 {
 	margin-left: 2.1875vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .Phone-Number {
 	margin-left: 18.875vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .Email {
 	margin-left: 2.8125vw;
 	margin-top: 3.125vw;
 	float: left;
+	color: #3c3d42;
 }
 
 .B-2 {
@@ -62,41 +69,51 @@ body {
 	margin-left: 15.5625vw;
 	margin-top: 9.375vw;
 	float: left;
+	color: #ffffff;
+	white-space: pre;
 }
 
 .W-7 {
-	margin-left: 15.625vw;
-	margin-top: 0.375vw;
+	margin-left: -12.375vw;
+	margin-top: 12.375vw;
 	float: left;
-	clear: both;
+	color: #ffffff;
+	white-space: pre;
 }
 
 .Text-1 {
 	width: 31.25vw;
-	margin-left: 15.625vw;
-	margin-top: 2vw;
+	margin-left: -19.89vw;
+	margin-top: 16vw;
 	float: left;
-	clear: both;
+	color: #8cb9c3;
+	white-space: pre;
 }
 
 .But-1 {
 	width: 15vw;
 	height: 3.75vw;
-	border: 0.125vw solid white;
+	border: 0.125vw solid #90afb4;
 	border-radius: 3.125vw;
-	margin-left: -31.4375vw;
+	margin-left: -24.4375vw;
 	/* 15.5625vw */
-	margin-top: 9.8125vw;
+	margin-top: 24.8125vw;
 	/* 25.8125vw */
 	background-color: #fff0;
 	float: left;
+	color: #ffffff;
+}
+
+#Img-3 {
+	max-width: 100%;
+	height: auto;
 }
 
 .Smartphone-in-hand {
-	width: 63.5625vw;
-	height: 39.5vw;
-	margin-left: 31.6875vw;
-	margin-top: -22.525vw;
+	max-width: 59.125vw;
+	max-height: 38.125vw;
+	margin-left: 34.6875vw;
+	margin-top: -21.115vw;
 	float: left;
 }
 
@@ -111,6 +128,7 @@ body {
 	margin-left: 40.875vw;
 	margin-top: 6.5vw;
 	float: left;
+	color: #636c6c;
 }
 
 .Text-2 {
@@ -118,6 +136,7 @@ body {
 	margin-top: 2.8125vw;
 	margin-left: 16.75vw;
 	float: left;
+	color: #bac1c1;
 	white-space: pre;
 }
 
@@ -131,6 +150,7 @@ body {
 	margin-left: -52.25vw;
 	margin-top: 14.0625vw;
 	float: left;
+	color: #9fa9a9;
 }
 
 .Suitcase-small {
@@ -143,6 +163,15 @@ body {
 	margin-left: -52.25vw;
 	margin-top: 23.0625vw;
 	float: left;
+	color: #9fa9a9;
+}
+
+.Selection-line {
+	margin-left: -39.125vw;
+	margin-top: 20.5625vw;
+	float: left;
+	position: relative;
+	z-index: 2;
 }
 
 .Sheet {
@@ -155,6 +184,7 @@ body {
 	margin-left: -52.25vw;
 	margin-top: 32.0625vw;
 	float: left;
+	color: #9fa9a9;
 }
 
 .Strange-image {
@@ -167,6 +197,7 @@ body {
 	margin-left: -52.25vw;
 	margin-top: 41.0625vw;
 	float: left;
+	color: #9fa9a9;
 }
 
 .Umbrella {
@@ -179,13 +210,28 @@ body {
 	margin-left: -52.25vw;
 	margin-top: 50.0625vw;
 	float: left;
+	color: #9fa9a9;
+}
+
+.Breeding-line {
+	margin-left: -495px;
+	margin-top: 115px; 
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.Suitcase {
+	margin-left: 354px;
+	margin-top: 175px;
+	float: left;
 }
 
 .B-4 {
 	width: 100%;
 	height: 51.3125vw;
 	margin-top: 8.75vw;
-	background-image: url('../Images/Background-4.png');
+	background-image: url('../Images/Background-4_Background-6.png');
 	float: left;
 }
 
@@ -200,7 +246,7 @@ body {
 	width: 100%;
 	height: 71.1875vw;
 	margin-top: 8.75vw;
-	background-image: url('../Images/Background-4.png');
+	background-image: url('../Images/Background-4_Background-6.png');
 	float: left;
 }
 
