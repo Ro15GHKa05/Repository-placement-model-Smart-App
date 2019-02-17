@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@font-face {
+	font-family: 'Proxima Nova Bold';
+	src: url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.eot');
+	src: local('Proxima Nova Bold'), local('Proxima Nova Bold'),
+		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.woff') format('woff'),
+		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	/* width: 160.625vw; */
+	width: 100%;
+	height: 364.375vw;
+	margin: 0px;
+	padding: 0px;
+}
+
+.Main {
+	width: 100%;
+	height: 6.8125vw;
+	position: fixed;
+	background-color: white;
+	/* opacity: 0.99; */
+	z-index: 15; 
+}
+
+.W-1 {
+	margin-left: 15.625vw; 
+	margin-top: 2.325vw;
+	float: left;
+	font-family: 'Proxima Nova Bold';
+	font-size: 1.875vw;
+	text-decoration: none;
+	color: #3c3d42;
+}
+
+.W-2 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.W-3 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.W-4 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.W-5 {
+	margin-left: 2.1875vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.Phone-number {
+	margin-left: 18.875vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.Phone-img {
+	width: 0.9375vw;
+	height: 0.875vw;
+}
+
+.Email {
+	margin-left: 2.8125vw;
+	margin-top: 3.125vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 0.875vw;
+	color: #3c3d42;
+	cursor: pointer;
+}
+
+.Email-img {
+	width: 1.125vw;
+	height: 0.8125vw;
+}
+
+.B-2 {
+	width: 100%;
+	height: 45vw;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-image: url('../Images-of-a-web-site-Smart-App/Background-2.png');
+	margin-top: 6.9vw; 
+	float: left;
+}
+
+.W-6 {
+	margin-left: 15.5625vw;
+	margin-top: 9.375vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 2.25vw;
+	font-weight: 700;
+	color: #ffffff;
+	white-space: pre;
+}
+
+.W-7 {
+	margin-left: -26.4vw;
+	margin-top: 12.375vw;
+	float: left;
+	font-family: "Raleway";
+	font-size: 2.25vw;
+	font-weight: 300;
+	color: #ffffff;
+	white-space: pre;
+}
+
+.Text-1 {
+	width: 30.5625vw;
+	height: 5.875vw;
+	margin-left: -31.5vw;
+	margin-top: 16vw;
+	float: left;
+	font-family: "Raleway";
+	line-height: 1.5vw;
+	font-size: 0.875vw;
+	color: #9dc7d1;
+	white-space: pre;
+}
+
+.But-1 {
+	width: 15vw;
+	height: 3.75vw;
+	border: 0.125vw solid #90afb4;
+	border-radius: 3.125vw;
+	margin-left: -26.1vw;
+	margin-top: 24.8125vw;
+	background-color: #fff0;
+	float: left;
+	font-family: "Raleway";
+	font-size: 1.3125vw;
+	font-weight: 700;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.But-1-Download {
+	color: #ffffff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#Img-3 {
+	max-width: 100%;
+	height: auto;
+}
+
+.Smartphone-in-hand {
+	max-width: 59.125vw;
+	max-height: 38.125vw;
+	margin-left: 25.5vw;
+	margin-top: -21.7vw;
+	float: left;
+}
+
+.B-3 {
+	width: 100%;
+	height: 61.4375vw;
+	background-color: #ffffff;
+	float: left;
+}
+
+.W-8 {
+	margin-left: 40.875vw;
+	margin-top: 6.5vw;
+	float: left;
+	color: #636c6c;
+}
+
+.Text-2 {
+	width: 53.75vw;
+	margin-top: 2.8125vw;
+	margin-left: 16.75vw;
+	float: left;
+	color: #bac1c1;
+	white-space: pre;
+}
+
+.Heart {
+	margin-left: -58.75vw;
+	margin-top: 12.8125vw;
+	float: left;
+	cursor: pointer;
+}
+
+.W-9 {
+	margin-left: -52.25vw;
+	margin-top: 14.0625vw;
+	float: left;
+	color: #9fa9a9;
+	cursor: pointer;
+}
+
+.Suitcase-small {
+	margin-left: -58.75vw;
+	margin-top: 21.8125vw;
+	float: left;
+	cursor: pointer;
+}
+
+.W-10 {
+	margin-left: -52.25vw;
+	margin-top: 23.0625vw;
+	float: left;
+	color: #9fa9a9;
+	cursor: pointer;
+}
+
+.Selection-line {
+	margin-left: -39.125vw;
+	margin-top: 20.5625vw;
+	float: left;
+	position: relative;
+	z-index: 2;
+}
+
+.Sheet {
+	margin-left: -58.75vw;
+	margin-top: 30.8125vw;
+	float: left;
+	cursor: pointer;
+}
+
+.W-11 {
+	margin-left: -52.25vw;
+	margin-top: 32.0625vw;
+	float: left;
+	color: #9fa9a9;
+	cursor: pointer;
+}
+
+.Strange-image {
+	margin-left: -58.75vw;
+	margin-top: 39.8125vw;
+	float: left;
+	cursor: pointer;
+}
+
+.W-12 {
+	margin-left: -52.25vw;
+	margin-top: 41.0625vw;
+	float: left;
+	color: #9fa9a9;
+	cursor: pointer;
+}
+
+.Umbrella {
+	margin-left: -58.75vw;
+	margin-top: 48.8125vw;
+	float: left;
+	cursor: pointer;
+}
+
+.W-13 {
+	margin-left: -52.25vw;
+	margin-top: 50.0625vw;
+	float: left;
+	color: #9fa9a9;
+	cursor: pointer;
+}
+
+.Breeding-line {
+	margin-left: -495px;
+	margin-top: 115px; 
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.Suitcase {
+	margin-left: 354px;
+	margin-top: 175px;
+	float: left;
+}
+
+.B-4 {
+	width: 100%;
+	height: 51.3125vw;
+	margin-top: 8.75vw;
+	background-repeat: no-repeat; 
+	background-image: url('../Images-of-a-web-site-Smart-App/Background-4_Background-6.png');
+	float: left;
+}
+
+.B-5 {
+	width: 100%;
+	height: 61.4375vw;
+	background-repeat: no-repeat; 
+	background-color: #ffffff;
+	float: left;
+}
+
+.B-6 {
+	width: 100%;
+	height: 71.1875vw;
+	margin-top: 8.75vw;
+	background-repeat: no-repeat; 
+	background-image: url('../Images-of-a-web-site-Smart-App/Background-4_Background-6.png');
+	float: left;
+}
+
+.B-7 {
+	width: 100%;
+	height: 34.875vw;
+	background-repeat: no-repeat; 
+	background-color: #ffffff;
+	float: left;
+
+}
+
+.B-8 {
+	width: 100%;
+	height: 45.6875vw;
+	background-image: url('../Images-of-a-web-site-Smart-App/Background-8.png');
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: 330.125vw;
+	float: left;
+}
+
+/* .B-8-empty-space {
+	width: 100%;
+	height: 19.25vw;
+	position: fixed;
+	background-color: #ffffff;
+	background-repeat: no-repeat; 
+	margin-top: 61vw;
+	float: left;
+} */
+
+.The-end-of-the-site {
+	width: 100%;
+	height: 28vw;
+	background-image: url('../Images-of-a-web-site-Smart-App/Background-the-end-of-the-website.png');
+	background-repeat: no-repeat; 
+	position: fixed;
+	margin-top: 51.9vw;
+	float: left;
+	z-index: 3;
+	/* opacity: 0.5; */
+}
