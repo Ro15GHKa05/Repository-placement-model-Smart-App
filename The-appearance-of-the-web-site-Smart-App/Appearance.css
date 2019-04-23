@@ -1,94 +1,73 @@
 @font-face {
 	font-family: 'Proxima Nova Bold';
-	src: url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.eot');
-	src: local('Proxima Nova Bold'),
-		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.eot?#iefix') format('embedded-opentype'),
-		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.woff') format('woff'),
-		url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+	src: local('Proxima Nova Bold'), url('../Fonts-web-site-Smart-App/Proxima-Nova/Proxima-Nova-Bold.ttf') format('truetype');
 }
 
 @font-face {
 	font-family: 'Raleway Regular';
-	src: url('../Fonts-web-site-Smart-App/Raleway/Raleway-Regular.ttf');
-	src: local('Raleway Regular'),
-		url('../Fonts-web-site-Smart-App/Raleway/Raleway-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+	src: local('Raleway Regular'), url('../Fonts-web-site-Smart-App/Raleway/Raleway-Regular.ttf') format('truetype');
 }
 
-body {
-	width: 100%;
-	height: 364.375vw;
+@font-face {
+	font-family: 'Socialico';
+	src: local('Socialico'), url('../Fonts-web-site-Smart-App/Socialico/Socialico.ttf') format('truetype');
+}
+
+* {
+	border: none;
 	margin: 0;
 	padding: 0;
+	outline: none;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: black;
 }
 
-.Main {
-	width: 100%;
-	height: 6.8125vw;
-	background-color: white;
+.Head-1 {
+	width: 73.0625vw;
+	height: 1.625vh;
+	margin: 0 auto;
+	padding-top: 2.625vh;
+	padding-bottom: 3.425vh;
 }
 
-.W-1 {
-	margin-left: 15.625vw; 
-	margin-top: 2.4vw;
+.Head-1 h1 a {
 	float: left;
 	font-family: 'Proxima Nova Bold';
-	font-size: 1.875vw;
-	text-decoration: none;
+	font-size: 1.875vh;
 	color: #3c3d42;
 }
 
-.W-2 {
-	margin-left: 2.1875vw;
-	margin-top: 3.125vw;
-	float: left;
-    font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	color: #3c3d42;
-	cursor: pointer;
+.Head-1 h1 a:hover {
+	color: black;
 }
 
-.W-3 {
-	margin-left: 2.1875vw;
-	margin-top: 3.125vw;
+.Navi-2 h2 a {
+	margin-left: 2.125vw;
+	padding-top: 0.775vh;
 	float: left;
 	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
+	font-size: 0.875vh;
 	color: #3c3d42;
-	cursor: pointer;
 }
 
-.W-4 {
-	margin-left: 2.1875vw;
-	margin-top: 3.125vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	color: #3c3d42;
-	cursor: pointer;
+.Navi-2 h2 a:hover {
+	color: black;
 }
 
-.W-5 {
-	margin-left: 2.1875vw;
-	margin-top: 3.125vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	color: #3c3d42;
-	cursor: pointer;
+.Di-14 {
+	float: right;
 }
 
-.Phone-number {
-	margin-left: 18.875vw;
-	margin-top: 3.125vw;
+.Head-1 img {
+	padding-top: 0.775vh;
 	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	color: #3c3d42;
-	cursor: pointer;
+}
+
+.Head-1 h3 {
+	padding-top: 0.775vh;
+	float: left;
 }
 
 .Phone-img {
@@ -96,34 +75,35 @@ body {
 	height: 0.875vw;
 }
 
-.Email {
-	margin-left: 2.8125vw;
-	margin-top: 3.125vw;
-	float: left;
+.Phone-number {
+	margin-left: 0.625vw;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vw;
 	color: #3c3d42;
-	cursor: pointer;
 }
 
 .Email-img {
 	width: 1.125vw;
 	height: 0.8125vw;
+	margin-left: 2.4375vw;
+}
+
+.Email {
+	margin-left: 0.75vw;
+	font-family: 'Raleway Regular';
+	font-size: 0.875vw;
+	color: #3c3d42;
 }
 
 .B-2 {
-	width: 100%;
-	height: 45vw;
-	background-position: center; 
-	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center center; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	background-image: url('../Images-of-a-web-site-Smart-App/Background-2.png');
-	float: left;
 }
 
 .W-6 {
-	margin-left: 15.5625vw;
-	margin-top: 9.375vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;
@@ -131,9 +111,6 @@ body {
 }
 
 .W-7 {
-	margin-left: -26.4vw;
-	margin-top: 12.375vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 300;
@@ -143,13 +120,9 @@ body {
 .Text-1 {
 	width: 30.5625vw;
 	height: 5.875vw;
-	margin-left: -31.5vw;
-	margin-top: 16vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	line-height: 1.5vw;
 	font-size: 0.875vw;
-	white-space: pre;
 	color: #9dc7d1;
 }
 
@@ -158,10 +131,7 @@ body {
 	height: 3.75vw;
 	border: 0.125vw solid #90afb4;
 	border-radius: 3.125vw;
-	margin-left: -26.1vw;
-	margin-top: 24.8125vw;
-	background-color: #fff0;
-	float: left;
+	background-color: transparent;
 	cursor: pointer;
 }
 
@@ -170,7 +140,6 @@ body {
 	font-size: 1.3125vw;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-decoration: none;
 	color: #ffffff;
 	cursor: pointer;
 }
@@ -178,21 +147,13 @@ body {
 .Smartphone-in-hand {
 	width: 59.125vw;
 	height: 38.125vw;
-	margin-left: 25.5vw;
-	margin-top: -21.7vw;
-	float: left;
 }
 
 .B-3 {
-	width: 100%;
-	height: 60.4375vw;
-	background-color: #ffffff;
-	float: left;
+	height: 60.4375vh;
 }
 
 .W-8 {
-	margin-left: 35.5vw;
-	margin-top: 6vw;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;
@@ -202,29 +163,19 @@ body {
 .Text-2 {
 	width: 53.75vw;
 	height: 5.625vw;
-	margin-left: 21vw;
-	margin-top: -2vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1vw;
 	line-height: 1.5vw;
-	white-space: pre;
 	color: #afb8b8;
 }
 
 .Heart {
 	width: 2.6875vw;
 	height: 2.375vw;
-	margin-left: -58.75vw;
-	margin-top: 8.8125vw;
-	float: left;
 	cursor: pointer;
 }
 
 .W-9 {
-	margin-left: -53.5vw;
-	margin-top: 9.2vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.25vw;
 	color: #9fa9a9;
@@ -234,16 +185,10 @@ body {
 .Suitcase-small {
 	width: 2.75vw;
 	height: 2.25vw;
-	margin-left: -58.75vw;
-	margin-top: 15.8125vw;
-	float: left;
 	cursor: pointer;
 }
 
 .W-10 {
-	margin-left: -53.5vw;
-	margin-top: 16.0625vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.25vw;
 	color: #9fa9a9;
@@ -253,16 +198,10 @@ body {
 .Sheet {
 	width: 2.8125vw;
 	height: 2.25vw;
-	margin-left: -58.75vw;
-	margin-top: 22.8125vw;
-	float: left;
 	cursor: pointer;
 }
 
 .W-11 {
-	margin-left: -53.5vw;
-	margin-top: 23.0625vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.25vw;
 	color: #9fa9a9;
@@ -272,16 +211,10 @@ body {
 .Strange-image {
 	width: 1.125vw;
 	height: 2.25vw;
-	margin-left: -58.75vw;
-	margin-top: 29.8125vw;
-	float: left;
 	cursor: pointer;
 }
 
 .W-12 {
-	margin-left: -53.5vw;
-	margin-top: 30.0625vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.25vw;
 	color: #9fa9a9;
@@ -291,16 +224,10 @@ body {
 .Umbrella {
 	width: 2.8125vw;
 	height: 2.375vw;
-	margin-left: -58.75vw;
-	margin-top: 36.8125vw;
-	float: left;
 	cursor: pointer;
 }
 
 .W-13 {
-	margin-left: -53.5vw;
-	margin-top: 37.0625vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.25vw;
 	color: #9fa9a9;
@@ -310,35 +237,21 @@ body {
 .Breeding-line {
 	width: 0.125vw;
 	height: 37.5625vw;
-	margin-left: -39.9375vw;
-	margin-top: 5.1875vw; 
-	float: left;
-	position: relative;
 	z-index: 1;
 }
 
 .Selection-line-suitcase {
 	width: 0.75vw;
 	height: 5.0625vw;
-	margin-left: -40.2vw;
-	margin-top: 14.3vw;
-	float: left;
-	position: relative;
 	z-index: 2;
 }
 
 .Suitcase {
 	width: 12.375vw;
 	height: 10.3125vw;
-	margin-left: 22.125vw;
-	margin-top: 6.9375vw;
-	float: left;
 }
 
 .W-14 {
-	margin-left: 9.1875vw;
-	margin-top: 5.375vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.5vw;
 	font-weight: 700;
@@ -346,78 +259,58 @@ body {
 }
 
 .Text-3 {
-	margin-left: 3.25vw;
-	margin-top: -0.9375vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1vw;
 	line-height: 1.5vw;
-	white-space: pre;
 	color: #afb8b8;
 }
 
 .Mouse-pointer {
 	width: 0.75vw;
 	height: 1vw;
-	margin-left: -57.75vw;
-	margin-top: -12vw;
-	float: left;
 }
 
 .B-4 {
-	width: 100%;
-	height: 51.3125vw;
+	height: 51.3125vh;
 	background-color: #f2f9fe;
-	float: left;
 }
 
 .W-15 {
-	margin-top: 7.1875vw;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;
-	white-space: pre;
 	color: #5dca88;
 }
 
 .Line-B-4 {
 	width: 6.5vw;
 	height: 0.125vw;
-	margin-left: 14vw;
-	margin-top: -3.8125vw;
-	float: left;
 }
 
 .W-16 {
-	margin-top: -4.25vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
-	white-space: pre;
 	color: #8c9494;
 }
 
 .Text-4 {
-	margin-left: -32vw;
-    margin-top: 5.1875vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1vw;
 	line-height: 1.5vw;
-	white-space: pre;
 	color: #8c9494;
 }
 
 .But-2 {
 	width: 15vw;
 	height: 3.75vw;
-	background-color: rgba(13,72,98,0);
+	background-color: transparent;
 	border: 0.1875vw solid rgba(99,108,108,0.5);
 	border-radius: 1.875vw;
-	margin-left: -27vw;
-    margin-top: 16vw;
-	float: left;
 	cursor: pointer;
+}
+
+.But-2:hover {
+	background-color: rgba(99,108,108,0.5);
 }
 
 .But-2-words {
@@ -432,23 +325,13 @@ body {
 .Smartphone-B-4 {
 	width: 23.75vw;
 	height: 43.5vw;
-	margin-left: 14vw;
-	margin-top: -16vw;
-	float: left;
 }
 
 .B-5 {
-	width: 100%;
-	height: 61.4375vw;
-	background-repeat: no-repeat; 
-	background-color: #ffffff;
-	float: left;
+	height: 61.4375vh;
 }
 
 .W-17 {
-	margin-left: 32.5vw;
-	margin-top: 6vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;
@@ -458,154 +341,105 @@ body {
 .Text-5 {
 	width: 53.75vw;
 	height: 5.625vw;
-	margin-left: 18.5vw;
-	margin-top: -2vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1vw;
 	line-height: 1.5vw;
-	white-space: pre;
 	color: #afb8b8;
 }
 
 .Left-arrow {
 	width: 1.8125vw;
 	height: 3.0625vw;
-	margin-left: -67.0625vw;
-	margin-top: 23.1875vw;
-	float: left;
 	cursor: pointer;
 }
 
 .Smartphone-B-5-1 {
 	width: 18.5vw;
 	height: 38.875vw;
-	margin-left: -58.625vw;
-	margin-top: 5.25vw;
-	float: left;
 }
 
 .Smartphone-B-5-2 {
 	width: 18.5vw;
 	height: 38.875vw;
-	margin-left: -32.875vw;
-	margin-top: 5.25vw;
-	float: left;
 }
 
 .Smartphone-B-5-3 {
 	width: 18.5vw;
 	height: 38.875vw;
-	margin-left: -6.875vw;
-	margin-top: 5.25vw;
-	float: left;
 }
 
 .Right-arrow {
 	width: 1.8125vw;
 	height: 3.0625vw;
-	margin-left: 6.9375vw;
-	margin-top: 23.1875vw;
-	float: left;
 	cursor: pointer;
 }
 
 .Text-6 {
-	margin-left: 9.5vw; 
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vw;
 	line-height: 1.5vw;
 	color: #8c9494;
-	white-space: pre;
 }
 
 .Text-7 {
-	margin-left: 4.9vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vw;
 	line-height: 1.5vw;
 	color: #8c9494;
-	white-space: pre;
 }
 
 .Text-8 {
-	margin-left: 4.9vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vw;
 	line-height: 1.5vw;
 	color: #8c9494;
-	white-space: pre;
 }
 
 .B-6 {
-	width: 100%;
-	height: 71.1875vw;
-	margin-top: 8.75vw;
+	height: 71.1875vh;
 	background-color: #f2f9fe;
-	float: left;
 }
 
 .Smartphones-B-6 {
 	width: 31.9375vw;
 	height: 43.5vw;
-	margin-left: 13.5vw;
-	margin-top: 12.5vw;
-	float: left;
 }
 
 .W-18 {
-	margin-left: -4.375vw;
-	margin-top: 16.1875vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;
-	white-space: pre;
 	color: #5dca88;
 }
 
 .Line-B-6 {
 	width: 6.5vw;
 	height: 0.125vw;
-	margin-left: 9.7vw;
-	margin-top: -3.8125vw;
-	float: left;
 }
 
 .W-19 {
-	margin-left: -4.3vw;
-	margin-top: -4.25vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
-	white-space: pre;
 	color: #8c9494;
 }
 
 .Text-9 {
-	margin-left: -32vw;
-    margin-top: 5.1875vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1vw;
 	line-height: 1.5vw;
-	white-space: pre;
 	color: #8c9494;
 }
 
 .But-3 {
 	width: 15vw;
 	height: 3.75vw;
-	background-color: rgba(13,72,98,0);
+	background-color: transparent;
 	border: 0.1875vw solid rgba(99,108,108,0.5);
 	border-radius: 1.875vw;
-	margin-left: -27vw;
-    margin-top: 16vw;
-	float: left;
-	cursor: pointer;
+}
+
+.But-3:hover {
+	background-color: rgba(99,108,108,0.5);
 }
 
 .But-3-words {
@@ -618,17 +452,10 @@ body {
 }
 
 .B-7 {
-	width: 100%;
-	height: 34.875vw;
-	background-repeat: no-repeat; 
-	background-color: #ffffff;
-	float: left;
+	height: 34.875vh;
 }
 
 .W-20 {
-	margin-left: 30.1875vw;
-	margin-top: 6.4375vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vw;
 	font-weight: 700;	
@@ -640,16 +467,10 @@ body {
 	width: 6.25vw;
 	height: 6.25vw;
 	border-radius: 3.125vw;
-	margin-left: 41.5vw;
-	margin-top: 2.375vw;
-	float: left;
 }
 
 .W-21 {
-	margin-left: 27vw;
-	margin-top: 2.9375vw;
-	float: left;
-	font-family: "Droid Serif";
+	font-family: 'Droid Serif';
 	font-style: italic;
 	font-weight: 400;
 	font-size: 1.5vw;
@@ -658,9 +479,6 @@ body {
 }
 
 .W-22 {
-	margin-left: 39vw;
-	margin-top: 1.6875vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 1.5vw;
 	line-height: 1.5vw;
@@ -670,164 +488,185 @@ body {
 .Dot-1 {
 	width: 0.625vw;
 	height: 0.625vw;
-	margin-left: -7vw;
-	margin-top: 5.5vw;
-	float: left;
 	cursor: pointer;
 }
 
 .Dot-2 {
 	width: 0.625vw;
 	height: 0.625vw;
-	margin-left: -5.9vw;
-	margin-top: 5.5vw;
-	float: left;
 	cursor: pointer;
 }
 
 .Dot-3 {
 	width: 0.625vw;
 	height: 0.625vw;
-	margin-left: -4.8vw;
-	margin-top: 5.5vw;
-	float: left;
 	cursor: pointer;
 }
 
 .B-8 {
-	width: 100%;
-	height: 22.6875vw;
+	padding-bottom: 7.5625vh;
 	background-color: #f3f5f5;
+}
+
+.Newsletter {
+	width: 30.5625vw;
+	height: 1.6875vw;
+	margin: 0 auto;
+	padding-top: 5.9375vh;
+}
+
+.Newsletter img {
 	float: left;
 }
 
 .Email-B-8 {
 	width: 2.0625vw;
 	height: 1.6875vw;
-	margin-left: 31.5vw;
-	margin-top: 5.9375vw;
-	float: left;
+	padding-right: 1.4375vw;
 }
 
 .W-23 {
-	margin-left: 1vw;
-	margin-top: 5.9375vw;
-	float: left;
+	width: 27.0625vw;
+	height: 1.625vh;
+	padding-top: 0.625vh;
 	font-family: 'Raleway Regular';
 	font-weight: 700;
-	font-size: 2.25vw;
-	line-height: 1.5vw;
+	font-size: 2.25vh;
+	line-height: 1.5vh;
 	color: #8c9494;
 }
 
-.The-input-field-e-mail {
-	width: 48.125vw;
-	height: 3.75vw;
-	background-color: #ffffff;
-	border: 0.125vw solid #bbc3c2;
-	border-radius: 1.875vw;
-	margin-left: 22vw;
-	margin-top: 3.75vw;
-	float: left;
+.Form-1 {
+	width: auto;
+	height: 3.735vh;
+	border: 0.125vh solid #bbc3c2;
+	border-radius: 1.875vh;
+	margin: 0 auto;
+	margin-top: 3.74vh;
 }
 
-.But-4 {
+.The-input-field-e-mail {
+	width: auto;
+	height: auto;
+	margin-left: 2.0625vw;
+	background-color: #f3f5f5;
+}
+
+.Inp-sub {
 	width: 10.625vw;
-	height: 3.75vw;
+	height: 3.75vh;
+	border-radius: 1.875vh;
 	background-color: #5dca88;
-	border-radius: 1.875vw;
-	margin-left: -10.5vw;
-	margin-top: 3.92vw;
-	float: left;
+	text-transform: uppercase;
+	font-family: 'Proxima Nova Bold';
+	font-size: 1.25vh;
+	line-height: 1.5vh;
+	color: white;
 	cursor: pointer;
 }
 
 .The-end-of-the-site {
-	width: 100%;
-	height: 19.25vw;
 	background-color: #2d312f;
-	float: left;
 }
 
 .W-24 {
-	margin-left: 42vw;
-	margin-top: 4.625vw;
-	float: left;
+	width: 13.5625vw;
+	height: 1.4375vh;
+	margin: 0 auto;
+	padding-top: 4.6875vh; 
+	text-align: center;
 	font-family: 'Raleway Regular';
-	font-size: 1.5vw;
-	line-height: 1.5vw;
+	font-size: 1.5vh;
+	line-height: 1.5vh;
 	color: #8c9494;
 }
 
-.Social {
-	margin-left: -17.8vw;
-	margin-top: 9.125vw;
-	float: left;
-	cursor: pointer;
+.Navi-social {
+	width: 17.5vw;
+	height: 2.625vh;
+	margin: 0 auto;
+	margin-top: 2.125vh;
+	text-align: center;
+	cursor: default;
 }
 
-.W-25 {
-	margin-left: -26.8vw;
-	margin-top: 14.625vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
-	color: #8c9494;
-	cursor: pointer;
+.NS-1 {
+	font-family: 'Socialico';
+	font-size: 3.75vh;
+	line-height: 1.5vh;
+	letter-spacing: 0.475vw;
+	color: #5d6461;
 }
 
-.W-26 {
-	margin-left: -21.5vw;
-	margin-top: 14.625vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
-	color: #8c9494;
-	cursor: pointer;
+.NS-1:hover {
+	color: #3b5999;
 }
 
-.W-27 {
-	margin-left: -16.5vw;
-	margin-top: 14.625vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
-	color: #8c9494;
-	cursor: pointer;
+.NS-2 {
+	font-family: 'Socialico';
+	font-size: 3.75vh;
+	line-height: 1.5vh;
+	letter-spacing: 0.475vw;
+	color: #5d6461;
 }
 
-.W-28 {
-	margin-left: -12.2vw;
-	margin-top: 14.625vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
-	color: #8c9494;
-	cursor: pointer;
+.NS-2:hover {
+	color: #41abe1;
 }
 
-.W-29 {
-	margin-left: -7vw;
-	margin-top: 14.625vw;
-	float: left;
-	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
-	color: #8c9494;
-	cursor: pointer;
+.NS-3 {
+	font-family: 'Socialico';
+	font-size: 3.75vh;
+	line-height: 1.5vh;
+	letter-spacing: 0.475vw;
+	color: #5d6461;
 }
 
-.W-30 {
-	margin-left: -0.5vw;
-	margin-top: 14.625vw;
+.NS-3:hover {
+	color: #de5246;
+}
+
+.NS-4 {
+	font-family: 'Socialico';
+	font-size: 3.75vh;
+	line-height: 1.5vh;
+	letter-spacing: 0.475vw;
+	color: #5d6461;
+}
+
+.NS-4:hover {
+	color: #ff0084;
+}
+
+.NS-5 {
+	font-family: 'Socialico';
+	font-size: 3.75vh;
+	line-height: 1.5vh;
+	color: #5d6461;
+}
+
+.NS-5:hover {
+	color: #ff0000;
+}
+
+.Navi-end {
+	width: 13.2vw;
+	height: 0.875vh;
+	margin: 0 auto;
+	margin-top: 4.375vh;
+	padding-bottom: 3.0625vh;
+	text-align: center;
+}
+
+.Navi-end a {
+	margin-left: 1.15vw;
 	float: left;
 	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
-	line-height: 1.5vw;
+	font-size: 0.875vh;
+	line-height: 1.5vh;
 	color: #8c9494;
-	cursor: pointer;
+}
+
+.Navi-end a:hover {
+	color: white;
 }
