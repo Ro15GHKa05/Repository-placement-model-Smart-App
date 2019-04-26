@@ -56,7 +56,7 @@
 	color: black;
 }
 
-.Di-14 {
+.Di-3 {
 	float: right;
 }
 
@@ -70,32 +70,32 @@
 	float: left;
 }
 
-.Phone-img {
-	width: 0.9375vw;
-	height: 0.875vw;
+.Phone-img-4 {
+	width: 5%;
+	height: 5%;
 }
 
-.Phone-number {
+.Phone-number-5 {
 	margin-left: 0.625vw;
 	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
+	font-size: 0.875vh;
 	color: #3c3d42;
 }
 
-.Email-img {
-	width: 1.125vw;
-	height: 0.8125vw;
+.Email-img-6 {
+	width: 5%;
+	height: 5%;
 	margin-left: 2.4375vw;
 }
 
-.Email {
+.Email-7 {
 	margin-left: 0.75vw;
 	font-family: 'Raleway Regular';
-	font-size: 0.875vw;
+	font-size: 0.875vh;
 	color: #3c3d42;
 }
 
-.B-2 {
+.B-8 {
 	background-size: cover;
 	background-position: center center; 
 	background-attachment: fixed;
@@ -104,40 +104,54 @@
 }
 
 .W-6 {
+	margin-left: 3.4375vw;
+	padding-top: 11.3125vh;
+	float: left;
 	font-family: 'Raleway Regular';
-	font-size: 2.25vw;
+	font-size: 2.25vh;
 	font-weight: 700;
 	color: #ffffff;
 }
 
 .W-7 {
+	margin-left: 3.4375vw;
+	margin-top: 0.625vh;
+	float: left;
 	font-family: 'Raleway Regular';
-	font-size: 2.25vw;
+	font-size: 2.25vh;
 	font-weight: 300;
 	color: #ffffff;
 }
 
 .Text-1 {
-	width: 30.5625vw;
-	height: 5.875vw;
+	width: 29.25vw;
+	height: 5.875vh;
+	margin-left: 3.4375vw;
+	margin-top: 2.875vh;
+	float: left;
 	font-family: 'Raleway Regular';
-	line-height: 1.5vw;
-	font-size: 0.875vw;
+	line-height: 1.5vh;
+	font-size: 0.875vh;
 	color: #9dc7d1;
 }
 
 .But-1 {
 	width: 15vw;
-	height: 3.75vw;
-	border: 0.125vw solid #90afb4;
-	border-radius: 3.125vw;
+	height: 3.75vh;
+	border: 0.125vh solid #90afb4;
+	border-radius: 3.125vh;
+	float: left;
 	background-color: transparent;
 	cursor: pointer;
 }
 
+.But-1:hover {
+	background-color: #90afb4; 
+}
+
 .But-1-word {
 	font-family: 'Raleway Regular';
-	font-size: 1.3125vw;
+	font-size: 1.3125vh;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
@@ -145,8 +159,8 @@
 }
 
 .Smartphone-in-hand {
-	width: 59.125vw;
-	height: 38.125vw;
+	width: 25%;
+	height: 25%;
 }
 
 .B-3 {
