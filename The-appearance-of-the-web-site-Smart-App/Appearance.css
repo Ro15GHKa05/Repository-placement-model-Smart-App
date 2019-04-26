@@ -265,11 +265,6 @@
 	color: #afb8b8;
 }
 
-.Mouse-pointer {
-	width: 0.75vw;
-	height: 1vw;
-}
-
 .B-4 {
 	height: 51.3125vh;
 	background-color: #f2f9fe;
@@ -509,7 +504,7 @@
 }
 
 .Newsletter {
-	width: 30.5625vw;
+	width: 27.0625vw;
 	height: 1.6875vw;
 	margin: 0 auto;
 	padding-top: 5.9375vh;
@@ -537,18 +532,19 @@
 }
 
 .Form-1 {
-	width: auto;
+	width: 48.125vw;
 	height: 3.735vh;
 	border: 0.125vh solid #bbc3c2;
 	border-radius: 1.875vh;
 	margin: 0 auto;
-	margin-top: 3.74vh;
+	margin-top: 3.75vh;
 }
 
 .The-input-field-e-mail {
-	width: auto;
+	width: 35.525vw;
 	height: auto;
 	margin-left: 2.0625vw;
+	margin-top: 0.885vh;
 	background-color: #f3f5f5;
 }
 
@@ -556,6 +552,7 @@
 	width: 10.625vw;
 	height: 3.75vh;
 	border-radius: 1.875vh;
+	position: absolute;
 	background-color: #5dca88;
 	text-transform: uppercase;
 	font-family: 'Proxima Nova Bold';
@@ -582,7 +579,7 @@
 }
 
 .Navi-social {
-	width: 17.5vw;
+	width: 30vw;
 	height: 2.625vh;
 	margin: 0 auto;
 	margin-top: 2.125vh;
@@ -650,7 +647,7 @@
 }
 
 .Navi-end {
-	width: 13.2vw;
+	width: 21.35vw;
 	height: 0.875vh;
 	margin: 0 auto;
 	margin-top: 4.375vh;
@@ -658,9 +655,12 @@
 	text-align: center;
 }
 
+.Navi-end a:first-child {
+	margin-left: 0;
+}
+
 .Navi-end a {
 	margin-left: 1.15vw;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vh;
 	line-height: 1.5vh;
