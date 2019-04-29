@@ -96,6 +96,8 @@
 }
 
 .B-8 {
+	width: auto;
+	height: 45.625vh;
 	background-size: cover;
 	background-position: center center; 
 	background-attachment: fixed;
@@ -123,7 +125,7 @@
 
 .Text-11 {
 	width: 29.25vw;
-	height: 5.875vh;
+	height: 3.875vh;
 	margin-left: 3.4375vw;
 	margin-top: 2.875vh;
 	font-family: 'Raleway Regular';
@@ -137,7 +139,8 @@
 	height: 3.75vh;
 	border: 0.125vh solid #90afb4;
 	border-radius: 3.125vh;
-	float: left;
+	margin-left: 3.375vw;
+	margin-top: 3.3125vh;
 	background-color: transparent;
 	cursor: pointer;
 }
@@ -152,15 +155,15 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
-	cursor: pointer;
 }
 
 .Smartphone-in-hand-14 {
-	width: 25%;
-	height: 25%;
+	width: 30%;
+	height: 75%;
+	float: right;
 }
 
-.B-3 {
+/* .B-3 {
 	height: 60.4375vh;
 }
 
@@ -274,9 +277,9 @@
 	font-size: 1vw;
 	line-height: 1.5vw;
 	color: #afb8b8;
-}
+} */
 
-.B-4 {
+/* .B-4 {
 	height: 51.3125vh;
 	background-color: #f2f9fe;
 }
@@ -680,4 +683,4 @@
 
 .Navi-end a:hover {
 	color: white;
-}
+} */
