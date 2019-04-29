@@ -56,10 +56,6 @@
 	color: black;
 }
 
-.Di-3 {
-	float: right;
-}
-
 .Head-1 img {
 	padding-top: 0.775vh;
 	float: left;
@@ -68,6 +64,10 @@
 .Head-1 h3 {
 	padding-top: 0.775vh;
 	float: left;
+}
+
+.Di-3 {
+	float: right;
 }
 
 .Phone-img-4 {
@@ -103,39 +103,36 @@
 	background-image: url('../Images-of-a-web-site-Smart-App/Background-2.png');
 }
 
-.W-6 {
+.W-9 {
 	margin-left: 3.4375vw;
 	padding-top: 11.3125vh;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 700;
 	color: #ffffff;
 }
 
-.W-7 {
+.W-10 {
 	margin-left: 3.4375vw;
 	margin-top: 0.625vh;
-	float: left;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 300;
 	color: #ffffff;
 }
 
-.Text-1 {
+.Text-11 {
 	width: 29.25vw;
 	height: 5.875vh;
 	margin-left: 3.4375vw;
 	margin-top: 2.875vh;
-	float: left;
 	font-family: 'Raleway Regular';
 	line-height: 1.5vh;
 	font-size: 0.875vh;
 	color: #9dc7d1;
 }
 
-.But-1 {
+.But-12 {
 	width: 15vw;
 	height: 3.75vh;
 	border: 0.125vh solid #90afb4;
@@ -145,11 +142,11 @@
 	cursor: pointer;
 }
 
-.But-1:hover {
+.But-12:hover {
 	background-color: #90afb4; 
 }
 
-.But-1-word {
+.But-13-word {
 	font-family: 'Raleway Regular';
 	font-size: 1.3125vh;
 	font-weight: 700;
@@ -158,7 +155,7 @@
 	cursor: pointer;
 }
 
-.Smartphone-in-hand {
+.Smartphone-in-hand-14 {
 	width: 25%;
 	height: 25%;
 }
