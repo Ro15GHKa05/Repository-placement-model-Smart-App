@@ -21,7 +21,6 @@
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
-	color: black;
 }
 
 .Head-1 {
@@ -72,7 +71,7 @@
 
 .Phone-img-4 {
 	width: 5%;
-	height: 5%;
+	height: auto;
 }
 
 .Phone-number-5 {
@@ -84,7 +83,7 @@
 
 .Email-img-6 {
 	width: 5%;
-	height: 5%;
+	height: auto;
 	margin-left: 2.4375vw;
 }
 
@@ -105,17 +104,21 @@
 	background-image: url('../Images-of-a-web-site-Smart-App/Background-2.png');
 }
 
-.W-9 {
-	margin-left: 3.4375vw;
-	padding-top: 11.3125vh;
+.Di-9 {
+	margin-left: 13.4375vw;
+	margin-top: 11.3125vh;
+	float: left;
+}
+
+.W-10 {
+	
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 700;
 	color: #ffffff;
 }
 
-.W-10 {
-	margin-left: 3.4375vw;
+.W-11 {
 	margin-top: 0.625vh;
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
@@ -123,10 +126,9 @@
 	color: #ffffff;
 }
 
-.Text-11 {
+.Text-12 {
 	width: 29.25vw;
 	height: 3.875vh;
-	margin-left: 3.4375vw;
 	margin-top: 2.875vh;
 	font-family: 'Raleway Regular';
 	line-height: 1.5vh;
@@ -134,22 +136,14 @@
 	color: #9dc7d1;
 }
 
-.But-12 {
+.But-13 {
 	width: 15vw;
 	height: 3.75vh;
 	border: 0.125vh solid #90afb4;
 	border-radius: 3.125vh;
-	margin-left: 3.375vw;
 	margin-top: 3.3125vh;
 	background-color: transparent;
 	cursor: pointer;
-}
-
-.But-12:hover {
-	background-color: #90afb4; 
-}
-
-.But-13-word {
 	font-family: 'Raleway Regular';
 	font-size: 1.3125vh;
 	font-weight: 700;
@@ -157,9 +151,15 @@
 	color: #ffffff;
 }
 
+.But-13:hover {
+	background-color: #90afb4; 
+}
+
 .Smartphone-in-hand-14 {
-	width: 30%;
-	height: 75%;
+	width: 41%;
+	height: auto;
+	margin-right: 14.225vw;
+	margin-top: 7.5vh;
 	float: right;
 }
 
@@ -512,8 +512,11 @@
 	cursor: pointer;
 }
 
-.B-8 {
-	padding-bottom: 7.5625vh;
+*/
+
+.B-100 {
+	width: 100%;
+	height: 22.625vh;
 	background-color: #f3f5f5;
 }
 
@@ -558,8 +561,8 @@
 	width: 35.525vw;
 	height: auto;
 	margin-left: 2.0625vw;
-	margin-top: 0.885vh;
-	background-color: #f3f5f5;
+	margin-top: 1.05vh;
+	background-color: transparent;
 }
 
 .Inp-sub {
@@ -683,4 +686,4 @@
 
 .Navi-end a:hover {
 	color: white;
-} */
+}
