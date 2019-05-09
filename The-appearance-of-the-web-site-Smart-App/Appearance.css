@@ -55,8 +55,7 @@
 	color: black;
 }
 
-.Head-1 img {
-	padding-top: 0.775vh;
+.Head-1 i {
 	float: left;
 }
 
@@ -69,26 +68,28 @@
 	float: right;
 }
 
-.Phone-img-4 {
-	width: 5%;
-	height: auto;
+#Ifa-4 {
+	padding-top: 0.775vh;
+	font-size: 1.125vh;
+	line-height: 1.5vh;
+	transform: rotate(90deg);
 }
 
 .Phone-number-5 {
-	margin-left: 0.625vw;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vh;
 	color: #3c3d42;
 }
 
-.Email-img-6 {
-	width: 5%;
-	height: auto;
+#Ifa-6 {
+	padding-top: 0.475vh;
+	font-size: 1.125vh;
+	line-height: 1.5vh;
 	margin-left: 2.4375vw;
 }
 
 .Email-7 {
-	margin-left: 0.75vw;
+	margin-left: 0.325vw;
 	font-family: 'Raleway Regular';
 	font-size: 0.875vh;
 	color: #3c3d42;
@@ -521,8 +522,8 @@
 }
 
 .Newsletter {
-	width: 27.0625vw;
-	height: 1.6875vw;
+	width: 21.865vw;
+	height: 1.6875vh;
 	margin: 0 auto;
 	padding-top: 5.9375vh;
 }
