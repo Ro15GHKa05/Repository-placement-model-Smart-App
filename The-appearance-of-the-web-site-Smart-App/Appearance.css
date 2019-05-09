@@ -39,7 +39,7 @@
 }
 
 .Head-1 h1 a:hover {
-	color: black;
+	color: #9dc7d1;
 }
 
 .Navi-2 h2 a {
@@ -52,11 +52,16 @@
 }
 
 .Navi-2 h2 a:hover {
-	color: black;
+	color: #9dc7d1;
 }
 
 .Head-1 i {
 	float: left;
+	cursor: pointer;
+}
+
+.Head-1 i:hover {
+	color: #5dca88;
 }
 
 .Head-1 h3 {
@@ -96,7 +101,7 @@
 }
 
 .B-8 {
-	width: auto;
+	width: 100%;
 	height: 45.625vh;
 	background-size: cover;
 	background-position: center center; 
@@ -116,7 +121,7 @@
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 700;
-	color: #ffffff;
+	color: white;
 }
 
 .W-11 {
@@ -124,7 +129,7 @@
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 300;
-	color: #ffffff;
+	color: white;
 }
 
 .Text-12 {
@@ -143,24 +148,24 @@
 	border: 0.125vh solid #90afb4;
 	border-radius: 3.125vh;
 	margin-top: 3.3125vh;
-	background-color: transparent;
+	background: transparent;
 	cursor: pointer;
 	font-family: 'Raleway Regular';
 	font-size: 1.3125vh;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: white;
 }
 
 .But-13:hover {
-	background-color: #90afb4; 
+	background: #90afb4; 
 }
 
 .Smartphone-in-hand-14 {
-	width: 41%;
-	height: auto;
+	max-width: 59.05%;
+	max-height: 59.05%;
 	margin-right: 14.225vw;
-	margin-top: 7.5vh;
+	margin-top: 18.705vh;
 	float: right;
 }
 
@@ -580,8 +585,12 @@
 	cursor: pointer;
 }
 
+.Inp-sub:hover {
+	background: #90afb4;
+}
+
 .The-end-of-the-site {
-	background-color: #2d312f;
+	background: #2d312f;
 }
 
 .W-24 {
