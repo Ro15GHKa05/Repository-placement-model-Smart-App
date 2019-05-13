@@ -17,7 +17,6 @@
 	border: none;
 	margin: 0;
 	padding: 0;
-	outline: none;
 	font-weight: normal;
 	font-style: normal;
 	text-decoration: none;
@@ -39,6 +38,7 @@
 }
 
 .Head-1 h1 a:hover {
+	text-decoration: underline;
 	color: #9dc7d1;
 }
 
@@ -52,7 +52,9 @@
 }
 
 .Navi-2 h2 a:hover {
+	text-decoration: underline;
 	color: #9dc7d1;
+	cursor: pointer;
 }
 
 .Head-1 i {
@@ -80,6 +82,10 @@
 	transform: rotate(90deg);
 }
 
+#Ifa-4:hover {
+	text-decoration: underline;
+}
+
 .Phone-number-5 {
 	font-family: 'Raleway Regular';
 	font-size: 0.875vh;
@@ -91,6 +97,10 @@
 	font-size: 1.125vh;
 	line-height: 1.5vh;
 	margin-left: 2.4375vw;
+}
+
+#Ifa-6:hover {
+	text-decoration: underline;
 }
 
 .Email-7 {
@@ -117,7 +127,6 @@
 }
 
 .W-10 {
-	
 	font-family: 'Raleway Regular';
 	font-size: 2.25vh;
 	font-weight: 700;
@@ -158,7 +167,8 @@
 }
 
 .But-13:hover {
-	background: #90afb4; 
+	background: #90afb4;
+	text-decoration: underline; 
 }
 
 .Smartphone-in-hand-14 {
@@ -526,27 +536,11 @@
 	background-color: #f3f5f5;
 }
 
-.Newsletter {
-	width: 21.865vw;
-	height: 1.6875vh;
+.W-23 {
+	width: 18.5vw;
+	height: 1.625vh;
 	margin: 0 auto;
 	padding-top: 5.9375vh;
-}
-
-.Newsletter img {
-	float: left;
-}
-
-.Email-B-8 {
-	width: 2.0625vw;
-	height: 1.6875vw;
-	padding-right: 1.4375vw;
-}
-
-.W-23 {
-	width: 27.0625vw;
-	height: 1.625vh;
-	padding-top: 0.625vh;
 	font-family: 'Raleway Regular';
 	font-weight: 700;
 	font-size: 2.25vh;
@@ -564,11 +558,16 @@
 }
 
 .The-input-field-e-mail {
-	width: 35.525vw;
+	width: 35vw;
 	height: auto;
+	border-radius: 1.875vh;
 	margin-left: 2.0625vw;
 	margin-top: 1.05vh;
 	background-color: transparent;
+}
+
+.The-input-field-e-mail:hover {
+	background-color: white;
 }
 
 .Inp-sub {
@@ -576,6 +575,7 @@
 	height: 3.75vh;
 	border-radius: 1.875vh;
 	position: absolute;
+	margin-left: 0.45vw;
 	background-color: #5dca88;
 	text-transform: uppercase;
 	font-family: 'Proxima Nova Bold';
@@ -587,6 +587,7 @@
 
 .Inp-sub:hover {
 	background: #90afb4;
+	text-decoration: underline;
 }
 
 .The-end-of-the-site {
@@ -695,5 +696,6 @@
 }
 
 .Navi-end a:hover {
-	color: white;
+	color: #9dc7d1;
+	text-decoration: underline;
 }
